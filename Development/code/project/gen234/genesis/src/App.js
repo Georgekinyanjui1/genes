@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/quiz" element={<Quiz/>}/>
       </Routes>
       
-      {/* <Quiz/> */}
+     
       {/* <Head/> */}
       <Footer/>
     </div>
