@@ -13,8 +13,6 @@ function Nav() {
         <NavLink className="nav-but"to="/section">Section</NavLink>
         <NavLink className="nav-but"to="/quiz">Quiz</NavLink>
        
-        
-        
       </div>
     );
 }
