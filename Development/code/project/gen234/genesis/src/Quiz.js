@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 
 function Quiz() {
+	
   const questions = [
 		{
 			questionText: 'The Bible begins with figurative also called?',
