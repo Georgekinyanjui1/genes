@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Footer() {
+    
   return (
     <div className='foot'>
         <h3>For any appreciation,donation or support</h3>
