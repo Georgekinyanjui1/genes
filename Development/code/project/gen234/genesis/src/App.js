@@ -14,7 +14,6 @@ function App() {
         <Route exact path="/" element={<Head/>}/>
         <Route exact path="/section" element={<Section/>}/>
         <Route exact path="/quiz" element={<Quiz/>}/>
-
       </Routes>
       {/* <Section/> */}
       {/* <Quiz/> */}
