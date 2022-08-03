@@ -60,7 +60,6 @@ function Quiz() {
 		padding:"5px",
 		marginRight:"20px",
 		fontSize:"20px"
-
 	}
   return (
     <div className='apple'>
