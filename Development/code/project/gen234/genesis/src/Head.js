@@ -34,7 +34,6 @@ function Head() {
         
       </div>
       
-     
     </div>
   );
 }
