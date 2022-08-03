@@ -3,7 +3,7 @@ import VersesList from "./VersesList";
 
 function Head() {
   const [isClicked,setIsClicked]= useState(true)
-  
+
   return (
     <div className="head-cont">
       <h1>Introduction</h1>
@@ -29,7 +29,7 @@ function Head() {
        
         <button className="head-butt" onClick={()=>setIsClicked(!isClicked)}>click to show or hide verses</button>
       </div>
-      {/* <VersesList/> */}
+      
       {isClicked?<VersesList/>:null}
         
       </div>
