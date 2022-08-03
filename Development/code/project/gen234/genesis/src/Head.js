@@ -3,6 +3,7 @@ import VersesList from "./VersesList";
 
 function Head() {
   const [isClicked,setIsClicked]= useState(true)
+  
   return (
     <div className="head-cont">
       <h1>Introduction</h1>
