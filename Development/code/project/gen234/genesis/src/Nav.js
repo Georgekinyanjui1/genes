@@ -2,6 +2,7 @@ import React from "react";
 import Section from "./Section";
 import { NavLink } from "react-router-dom";
 function Nav() {
+  
     return (
       <div className="nav-cont">
         <img
