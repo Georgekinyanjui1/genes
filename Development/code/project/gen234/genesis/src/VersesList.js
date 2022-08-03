@@ -7,6 +7,7 @@ function VersesList() {
         .then((res)=>res.json())
         .then((data)=>setVerses(data))
     },[])
+    
   return (
     <div>
 {verses.map((verse)=><Verse verse={verse} key={verse.id}/>)}
