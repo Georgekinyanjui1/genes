@@ -15,9 +15,6 @@ function App() {
         <Route exact path="/section" element={<Section/>}/>
         <Route exact path="/quiz" element={<Quiz/>}/>
       </Routes>
-      
-     
-     
       <Footer/>
     </div>
   );
